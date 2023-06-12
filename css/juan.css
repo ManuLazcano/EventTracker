@@ -3,15 +3,38 @@ header {
    margin: auto;
    display: flex;
    justify-content: space-between;
-   } 
-   
-  .items{
-   margin: auto;
-   padding: 40px;
+} 
+
+.nav-items{
+   min-width: 30%;
+
    display: flex;
-   justify-content: flex-start;
+  
+   align-items: center;
 
+}
 
+.items {
+   display: flex;
+   margin: auto;
+   
+
+  
+}
+   
+.items li{
+   margin: auto 10px;
+   text-decoration: none;
+   list-style: none; /* quita el estilo de la lista por defecto (los puntos) */
+   
+    
+}
+
+a {
+   text-decoration: none; /* quita el estilo del texto por defecto (a) */
+   font-weight: bold; /* negrita */
+   color: rgb(32, 30, 30);
+   font-size: 1.3rem;  /* rem es  un proporcional a un tamao estandar */
 
 }
 
@@ -21,6 +44,8 @@ header {
    margin: auto;
    height: auto;
    padding: auto;
+
+   
 
 }
 
@@ -33,6 +58,32 @@ footer {
    justify-content: space-between;
 
 
+}
+
+.center{
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.space{
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   
+
+
+}
+
+.caja{
+
+   min-width: 25%;
+   min-height: 200px;
+   background-color: yellow;
+   margin: 10px 10px;
 }
 
 
