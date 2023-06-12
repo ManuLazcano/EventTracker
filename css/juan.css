@@ -5,8 +5,35 @@ header {
    justify-content: space-between;
    } 
    
-   
-  
+  .items{
+   margin: auto;
+   padding: 40px;
+   display: flex;
+   justify-content: flex-start;
+
+
+
+}
+
+
+.body {
+   background-color: black;
+   margin: auto;
+   height: auto;
+   padding: auto;
+
+}
+
+
+footer {
+
+   background-color: #32B7B7;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+
+
+}
 
 
 
