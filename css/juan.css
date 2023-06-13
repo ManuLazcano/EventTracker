@@ -56,9 +56,27 @@ footer {
    margin: auto;
    display: flex;
    justify-content: space-between;
+}
 
+.icon3 {
+
+   background-color: #32B7B7;
+   min-width: 20%;
+   display: flex;
+   align-items: center;
+}
+
+.items3 {
+   text-decoration: none;
+   list-style: none;
+}
+
+.items3 img {
+   width: 30px;
 
 }
+
+
 
 .center{
 
@@ -86,5 +104,12 @@ footer {
    margin: 10px 10px;
 }
 
+.flex {
+   margin: auto ;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+
+}
 
 
