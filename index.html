@@ -33,52 +33,66 @@
         </div>
     </header>
     <main>
-        <div class="searcher"> <!--Block-->
-            <h2 class="searcher__title">Encuentra eventos en EventTracker</h2>
-            <form class="searcher__form">
-                <div class="searcher__options-container">
-                    <p class="searcher__option-title">Dónde</p>
-                    <select class="searcher__input" name="place" id="place">
-                        <option value="Buenos Aires">Buenos Aires</option>
-                        <option value="Capital federal">Capital federal</option>
-                        <option value="Catamarca">Catamarca</option>
-                        <option value="Chaco">Chaco</option>
-                        <option value="Chubut">Chubut</option>
-                        <option value="Córdoba">Córdoba</option>
-                        <option value="Corrientes">Corrientes</option>
-                        <option value="Entre Ríos">Entre Ríos</option>
-                        <option value="Formosa">Formosa</option>
-                        <option value="Jujuy">Jujuy</option>
-                        <option value="La Pampa">La Pampa</option>
-                        <option value="La Rioja">La Rioja</option>
-                        <option value="Mendoza">Mendoza</option>
-                        <option value="Misiones">Misiones</option>
-                        <option value="Neuquén">Neuquén</option>
-                        <option value="Río Negro">Río Negro</option>
-                        <option value="Salta">Salta</option>
-                        <option value="San Juan">San Juan</option>
-                        <option value="San Luis">San Luis</option>
-                        <option value="Santa Cruz">Santa Cruz</option>
-                        <option value="Santa Fe">Santa Fe</option>
-                        <option value="Santiago del Estero">Santiago del Estero</option>
-                        <option value="Tierra del Fuego">Tierra del Fuego</option>
-                        <option value="Tucumán">Tucumán</option>
-                    </select>
-                </div>
-                <div class="searcher__options-container searcher__options-container__date">
-                    <label class="searcher__option-title searcher__option-title__date">Desde<input class="searcher__input" type="date"></label>
-                    <label class="searcher__option-title searcher__option-title__date">Hasta<input class="searcher__input" type="date"></label>
-                </div>
-                <div class="searcher__options-container">
-                    <p class="searcher__option-title">Categoría</p>
-                    <select class="searcher__input" name="category" id="category">
-                        <option value="Artistas musicales">Artistas musicales</option>
-                        <option value="Gastronomia">Gastronomia</option>
-                        <option value="VideoJuegos">VideoJuegos</option>
-                    </select>
-                </div>
-                <input class="searcher__button" type="submit" value="Buscar">
-            </form>
+        <div class="main-content">
+            <div class="searcher"> <!--Block-->
+                <h2 class="searcher__title">Encuentra eventos en EventTracker</h2>
+                <form class="searcher__form">
+                    <div class="searcher__options-container">
+                        <p class="searcher__option-title">Dónde</p>
+                        <select class="searcher__input" name="place" id="place">
+                            <option value="Buenos Aires">Buenos Aires</option>
+                            <option value="Capital federal">Capital federal</option>
+                            <option value="Catamarca">Catamarca</option>
+                            <option value="Chaco">Chaco</option>
+                            <option value="Chubut">Chubut</option>
+                            <option value="Córdoba">Córdoba</option>
+                            <option value="Corrientes">Corrientes</option>
+                            <option value="Entre Ríos">Entre Ríos</option>
+                            <option value="Formosa">Formosa</option>
+                            <option value="Jujuy">Jujuy</option>
+                            <option value="La Pampa">La Pampa</option>
+                            <option value="La Rioja">La Rioja</option>
+                            <option value="Mendoza">Mendoza</option>
+                            <option value="Misiones">Misiones</option>
+                            <option value="Neuquén">Neuquén</option>
+                            <option value="Río Negro">Río Negro</option>
+                            <option value="Salta">Salta</option>
+                            <option value="San Juan">San Juan</option>
+                            <option value="San Luis">San Luis</option>
+                            <option value="Santa Cruz">Santa Cruz</option>
+                            <option value="Santa Fe">Santa Fe</option>
+                            <option value="Santiago del Estero">Santiago del Estero</option>
+                            <option value="Tierra del Fuego">Tierra del Fuego</option>
+                            <option value="Tucumán">Tucumán</option>
+                        </select>
+                    </div>
+                    <div class="searcher__options-container searcher__options-container__date">
+                        <label class="searcher__option-title searcher__option-title__date">Desde<input class="searcher__input" type="date"></label>
+                        <label class="searcher__option-title searcher__option-title__date">Hasta<input class="searcher__input" type="date"></label>
+                    </div>
+                    <div class="searcher__options-container">
+                        <p class="searcher__option-title">Categoría</p>
+                        <select class="searcher__input" name="category" id="category">
+                            <option value="Artistas musicales">Artistas musicales</option>
+                            <option value="Gastronomia">Gastronomia</option>
+                            <option value="VideoJuegos">VideoJuegos</option>
+                        </select>
+                    </div>
+                    <input class="searcher__button" type="submit" value="Buscar">
+                </form>
+            </div>
+            <div class="category"> <!--Block-->
+                <h2>Categorías populares</h2>
+                <a href="./docs/artistasMusicales.html">
+                    <div class="category__card"><span>Artistas musicales</span></div>
+                </a>
+                <a href="./docs/gastronomia.html">
+                    <div class="category__card"><span>Gastronomia</span></div>
+                </a>
+                <a href="./docs/videoJuegos.html">
+                    <div class="category__card"><span>Videojuegos</span></div>
+                </a>
+            </div>
         </div>
     </main>
 </body>
