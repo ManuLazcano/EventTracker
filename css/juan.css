@@ -3,20 +3,25 @@ header {
    margin: auto;
    display: flex;
    justify-content: space-between;
+   align-items: flex-end;
 } 
 
 .nav-items{
-   min-width: 30%;
+   min-width: 20%;
 
    display: flex;
   
    align-items: center;
+
+   
 
 }
 
 .items {
    display: flex;
    margin: auto;
+   
+
    
 
   
@@ -27,6 +32,7 @@ header {
    text-decoration: none;
    list-style: none; /* quita el estilo de la lista por defecto (los puntos) */
    
+   
     
 }
 
@@ -34,36 +40,56 @@ a {
    text-decoration: none; /* quita el estilo del texto por defecto (a) */
    font-weight: bold; /* negrita */
    color: rgb(32, 30, 30);
-   font-size: 1.3rem;  /* rem es  un proporcional a un tamao estandar */
+   font-size: 1.1rem;  /* rem es  un proporcional a un tamao estandar */
 
 }
+
+
 
 
 .body {
-   background-color: black;
-   margin: auto;
-   height: auto;
-   padding: auto;
-
-   
+   background-color: #E8E8E8;
+   display: flex;
 
 }
+
+
 
 
 footer {
 
    background-color: #32B7B7;
-   margin: auto;
+   margin: center;
    display: flex;
    justify-content: space-between;
+}
+
+
+.icon2 {
+   min-width: 3%;
+   font-size: 4rem;
+
+}
+
+.icon2 img {
+   width: 25px;
+   height: 25px;
 }
 
 .icon3 {
 
    background-color: #32B7B7;
-   min-width: 20%;
+   /*min-width: 3%;*/
    display: flex;
    align-items: center;
+   /*font-size: 4rem;*/
+   /*max-width: 20%;*/
+
+}
+
+.icon3 img {
+   min-width: 45px;
+   min-height: 45px;
 }
 
 .items3 {
@@ -75,7 +101,6 @@ footer {
    width: 30px;
 
 }
-
 
 
 .center{
@@ -92,16 +117,6 @@ footer {
    align-items: center;
    flex-wrap: wrap;
    
-
-
-}
-
-.caja{
-
-   min-width: 25%;
-   min-height: 200px;
-   background-color: yellow;
-   margin: 10px 10px;
 }
 
 .flex {
