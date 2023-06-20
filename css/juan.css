@@ -16,10 +16,14 @@ header {
   
    align-items: center;
 
-   
+   margin: 10px;
 
-   
 
+
+}
+
+.barra::before {
+   content: "| ";  
 }
 
 .items {
@@ -36,6 +40,7 @@ header {
    margin: auto 10px;
    text-decoration: none;
    list-style: none; /* quita el estilo de la lista por defecto (los puntos) */
+   
    
    
    
@@ -82,6 +87,8 @@ a {
    flex-direction: column;
 
    width: 100%;
+
+   
 
 }
 
@@ -210,7 +217,7 @@ body {
    bottom: 270px;
    display: flex;
    justify-content: space-between;
-   padding: 0.5px;
+   padding: 8px;
    font-weight: bold;
    border: 1px solid #E8E8E8;
    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
@@ -262,6 +269,8 @@ footer {
    align-items: center;
    /*font-size: 4rem;*/
    /*max-width: 20%;*/
+
+   margin: 0 10px;
 
 }
 
