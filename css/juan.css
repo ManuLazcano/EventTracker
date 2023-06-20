@@ -4,6 +4,7 @@ header {
    display: flex;
    justify-content: space-between;
    align-items: flex-end;
+   max-width: 1460px;
    
 } 
 
@@ -51,7 +52,7 @@ a {
 
 
 
-.body {
+/* .body {
    background-color: #E8E8E8;
 
    height: 1440px;
@@ -65,9 +66,29 @@ a {
    flex-direction: column;
    
 
+} */
+
+.body {
+   background-color: #E8E8E8;
+
+   height: 1440px;
+   width: 1440px;
+   left: 1325px;
+   top: -269px;
+   border-radius: 0px;
+   margin: auto;
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   
+
 }
 
-
+body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
 
 
 .caja {
@@ -81,7 +102,8 @@ a {
    text-align: left;
    padding: 10px;
    position: relative;
-   right: 500px;
+   /* right: 500px; tenia este*/
+   right: 350px;
    top: 150px;
 
  
@@ -98,7 +120,8 @@ a {
    text-align: left;
    padding: 10px;
    position: relative;
-   right: 500px;
+   /* right: 500px; */
+   right: 350px;
    top: 300px;
  
 }
@@ -114,7 +137,8 @@ a {
    text-align: left;
    padding: 10px;
    position: relative;
-   right: 500px;
+   /* right: 500px; */
+   right: 350px;
    top: 450px;
     }
 
@@ -129,7 +153,8 @@ a {
    text-align: left;
    padding: 10px;
    position: relative;
-   left: 500px;
+   /* left: 500px; tenia este*/
+   left: 350px;
    bottom: 645px;
     }
 
@@ -144,7 +169,8 @@ a {
    text-align: left;
    padding: 10px;
    position: relative;
-   left: 500px;
+   /* left: 500px; */
+   left: 350px;
    bottom: 495px;
     }
 
@@ -159,7 +185,8 @@ a {
    text-align: left;
    padding: 10px;
    position: relative;
-   left: 500px;
+   /* left: 500px; */
+   left: 350px;
    bottom: 345px;
     }
 
@@ -189,9 +216,11 @@ a {
 footer {
 
    background-color: #32B7B7;
-   margin: center;
+   /* margin: center; tenia este*/
+   margin: auto;
    display: flex;
    justify-content: space-between;
+   width: 1460px;
 }
 
 
