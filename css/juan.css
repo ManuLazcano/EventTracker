@@ -4,6 +4,7 @@ header {
    display: flex;
    justify-content: space-between;
    align-items: flex-end;
+   
 } 
 
 .nav-items{
@@ -12,6 +13,8 @@ header {
    display: flex;
   
    align-items: center;
+
+   
 
    
 
@@ -49,10 +52,56 @@ a {
 
 .body {
    background-color: #E8E8E8;
+
+   height: 1440px;
+   width: 1889px;
+   left: 1325px;
+   top: -269px;
+   border-radius: 0px;
+   margin: auto;
+   padding: 10px;
    display: flex;
+   flex-direction: column;
+   
 
 }
 
+
+
+.caja {
+   width: 450px;
+   height: 250px;
+   margin: auto;
+   /* padding: 25px; */
+   border: 1px solid white;
+   border-radius: 10px;
+   background-color: white;
+   text-align: left;
+   padding: 10px;
+   position: relative;
+   right: 600px;
+   top: 270px;
+
+ 
+}
+
+.caja2 {
+   width: 450px;
+   height: 250px;
+   /* padding: 25px; */
+   margin: auto;
+   border: 1px solid white;
+   border-radius: 10px;
+   background-color: white;
+   text-align: left;
+   padding: 10px;
+   position: relative;
+   left: 600px;
+   bottom: 500px;
+
+
+ 
+}
 
 
 
