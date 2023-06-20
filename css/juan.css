@@ -36,6 +36,7 @@ header {
    list-style: none; /* quita el estilo de la lista por defecto (los puntos) */
    
    
+   
     
 }
 
@@ -54,7 +55,7 @@ a {
    background-color: #E8E8E8;
 
    height: 1440px;
-   width: 1889px;
+   width: 1865px;
    left: 1325px;
    top: -269px;
    border-radius: 0px;
@@ -68,19 +69,20 @@ a {
 
 
 
+
 .caja {
    width: 450px;
    height: 250px;
    margin: auto;
    /* padding: 25px; */
    border: 1px solid white;
-   border-radius: 10px;
+   border-radius: 15px;
    background-color: white;
    text-align: left;
    padding: 10px;
    position: relative;
-   right: 600px;
-   top: 270px;
+   right: 500px;
+   top: 150px;
 
  
 }
@@ -91,16 +93,95 @@ a {
    /* padding: 25px; */
    margin: auto;
    border: 1px solid white;
-   border-radius: 10px;
+   border-radius: 15px;
    background-color: white;
    text-align: left;
    padding: 10px;
    position: relative;
-   left: 600px;
-   bottom: 500px;
-
-
+   right: 500px;
+   top: 300px;
  
+}
+
+.caja3 {
+   width: 450px;
+   height: 250px;
+   /* padding: 25px; */
+   margin: auto;
+   border: 1px solid white;
+   border-radius: 15px;
+   background-color: white;
+   text-align: left;
+   padding: 10px;
+   position: relative;
+   right: 500px;
+   top: 450px;
+    }
+
+.caja4 {
+   width: 450px;
+   height: 250px;
+   /* padding: 25px; */
+   margin: auto;
+   border: 1px solid white;
+   border-radius: 15px;
+   background-color: white;
+   text-align: left;
+   padding: 10px;
+   position: relative;
+   left: 500px;
+   bottom: 645px;
+    }
+
+.caja5 {
+   width: 450px;
+   height: 250px;
+   /* padding: 25px; */
+   margin: auto;
+   border: 1px solid white;
+   border-radius: 15px;
+   background-color: white;
+   text-align: left;
+   padding: 10px;
+   position: relative;
+   left: 500px;
+   bottom: 495px;
+    }
+
+.caja6 {
+   width: 450px;
+   height: 250px;
+   /* padding: 25px; */
+   margin: auto;
+   border: 1px solid white;
+   border-radius: 15px;
+   background-color: white;
+   text-align: left;
+   padding: 10px;
+   position: relative;
+   left: 500px;
+   bottom: 345px;
+    }
+
+.flex-container {
+   margin: auto;
+   width: 15%;
+   height: 5%;
+   position: relative;
+   bottom: 300px;
+   display: flex;
+   justify-content: space-between;
+   padding: 0.5px;
+   font-weight: bold;
+   border: 1px solid #E8E8E8;
+   border-radius: 15px;
+   background-color: white;
+   
+}
+
+.icon-litle { 
+   position: relative;
+   top: 30px;
 }
 
 
