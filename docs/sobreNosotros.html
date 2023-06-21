@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="N:\Proyecto2\EventTracker\css\dam.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Stardos+Stencil:wght@400;700&display=swap" rel="stylesheet">
+    <title>Sobre Nosotros</title>
+</head>
+<body>
+    <header class="header"> <!--Block-->
+        <div class="header__logo-container">
+            <a href="N:\Proyecto2\EventTracker\index.html">
+                <img class="header__logo" src="N:\Parcial 2\EventTracker\assets\imgs\logo.png" alt="Logo">
+            </a>
+        </div>
+        <div class="header__navBar-container">
+            <ul class="header__list-container">
+                <li class="header__item-navBar header__item-navBar--pipe">
+                    <a href="#">Login</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <h1>¡Explora, sigue y disfruta los mejores eventos con EventTracker!</h1>
+    <p>
+        <h2>Nuestra plataforma es el resultado de años de experiencia y dedicación en la industria de eventos. Nos enorgullece
+        ofrecer una amplia gama de funciones y una interfaz intuitiva que facilita el descubrimiento y la selección de
+        eventos. Nuestro equipo de expertos trabaja diligentemente para recopilar información precisa y actualizada sobre 
+        eventos, asegurando que no te pierdas ninguna experiencia emocionante.<br>
+        <br>Si tienes alguna pregunta, comentario o simplemente deseas compartir tus experiencias con nosotros, no dudes en 
+        contactarnos. Estamos aquí para escucharte y hacer que tu experiencia en EventTracker sea excepcional.
+        </h2>
+    </p>
+    <form>
+        <div class="mb-2">
+            <label for="Nombre">Nombre:</label>
+            <input type="text" name="nombre" id="name">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text"></div>
+        </div>
+        <div class="mb-4">
+            <label for="Telefono">Telefono:</label>
+            <input type="text" name="Telefono" id="Telefono">
+        </div>
+        <div class="mb-5">
+            <label for="Mensaje">Comentario:</label>
+            <textarea type="text" name="Mensaje" id="msj" cols="30" rows="5"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</body>
+</html>
