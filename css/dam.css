@@ -13,17 +13,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-html {
-    font-size: 1;
-    position: relative;
-    width: 1440px;
-    height: 1024px;
-}
-body {
-    font-size: 1.6rem;
-    display: flex;
-}
-
 
 .header {
     display: flex;
@@ -47,6 +36,7 @@ body {
 .header__navBar-container {
     align-self: flex-end;
     margin-right: 15px;
+    font-family: 'Stardos Stencil';
 }
 
 .header__list-container {
@@ -63,8 +53,19 @@ body {
     color: var(--white);
 }
 
+.header__item-navBar--pipe::before {
+    content: "| ";
+    color: var(--black);
+}
+
+main {
+    width: 100%;
+    height: 82vh;
+    background-color: var(--terciary-color);
+}
 
 .nav-link {
+    display: flex;
     position: absolute;
     width: 64px;
     height: 17px;
@@ -77,6 +78,7 @@ body {
     line-height: 28px;
     color: var(--black);
 }
+
 h1 {
     position: absolute;
     width: 1267px;
@@ -90,6 +92,7 @@ h1 {
     line-height: 73px;
     color: var(--black);
 }
+
 h2 {
     position: absolute;
     width: 696px;
@@ -103,6 +106,7 @@ h2 {
     line-height: 34px;
     color: var(--black);
 }
+
 form {
     position: absolute;
     width: 577px;
@@ -113,6 +117,7 @@ form {
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
     border-radius: 30px;
 }
+
 .mb-2 {
     /* Nombre: */
 
@@ -133,6 +138,7 @@ line-height: 34px;
 
 color: #0E0D0D;
 }
+
 #name {
     /* Rectangle 4 */
 
@@ -148,6 +154,7 @@ background: #FAFAFA;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 12px;
 }
+
 .mb-3 {
     /* Email: */
 
@@ -170,6 +177,7 @@ line-height: 34px;
 
 color: #0E0D0D;
 }
+
 #exampleInputEmail1 {
     /* Rectangle 5 */
 
@@ -185,6 +193,7 @@ background: #FAFAFA;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 12px;
 }
+
 .mb-4 {
     /* Teléfono: */
 
@@ -207,6 +216,7 @@ line-height: 34px;
 color: #0E0D0D;
 
 }
+
 #Telefono {
     position: absolute;
 width: 336px;
@@ -218,6 +228,7 @@ background: #FAFAFA;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 12px;
 }
+
 #msj {
 
     /* input-coment */
@@ -232,6 +243,7 @@ border-radius: 12px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 12px;
 }
+
 .mb-5 {
 
     /* Comentario: */
@@ -256,47 +268,25 @@ border-radius: 12px;
  color: #0E0D0D;
  
  }
- button {
-    /* Rectangle 8 */
 
-
-position: absolute;
-width: 688px;
-height: 69px;
-left: 16px;
-top: 663px;
-
-/* Primary-color */
-
-background: #32B7B7;
-/* shadow */
-
-box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
-border-radius: 30px;
- }
-.btn btn-primary{
+.searcher__button {
     /* Enviar */
-
-
-position: absolute;
-width: 120px;
-height: 56px;
-left: 300px;
-
-
-font-family: 'Langar';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 56px;
-/* identical to box height */
-
-
-/* black */
-
-color: #0E0D0D;
-
-
+    width: 545px;
+    height: 69px;
+    margin: 8px 0;
+    font-family: 'Langar';
+    font-size: 2.5rem;
+    background-color: var(--primary-color);
+    box-shadow: var(--shadow-input);
+    border-radius: 30px;
 }
 
-
+footer {
+    background-color: #32B7B7;
+    /* margin: center; tenia este*/
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1460px;
+    min-width: 100%;
+}

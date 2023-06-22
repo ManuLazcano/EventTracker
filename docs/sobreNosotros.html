@@ -36,25 +36,63 @@
         contactarnos. Estamos aquí para escucharte y hacer que tu experiencia en EventTracker sea excepcional.
         </h2>
     </p>
-    <form>
-        <div class="mb-2">
-            <label for="Nombre">Nombre:</label>
-            <input type="text" name="nombre" id="name">
+    <main>
+        <div class="main-content">
+            <div class="searcher"> <!--Block-->
+                <form class="contact-form">
+                    <div class="mb-2">
+                     <label for="Nombre">Nombre:</label>
+                     <input type="text" name="nombre" id="name">
+                    </div>
+                    <div class="mb-3">
+                     <label for="exampleInputEmail1" class="form-label">Email:</label>
+                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                     <div id="emailHelp" class="form-text"></div>
+                    </div>
+                    <div class="mb-4">
+                     <label for="Telefono">Telefono:</label>
+                     <input type="text" name="Telefono" id="Telefono">
+                    </div>
+                    <div class="mb-5">
+                     <label for="Mensaje">Comentario:</label>
+                     <textarea type="text" name="Mensaje" id="msj" cols="30" rows="5"></textarea>
+                    </div>
+                    <input class="searcher__button" type="submit" value="Enviar">
+                </form>
+            </div>
         </div>
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email:</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text"></div>
+    </main>
+    <footer class="pie_pagina">
+
+        
+        <div class="icon3 center">
+
+            <!-- <ol class="items3 flex"> -->
+
+                <!-- <li class="enlaces-items3">  -->
+                    <a href="https://www.instagram.com/"><img src="../assets/imgs/logo-instagram.png" alt="facebook"></a>
+                <!-- </li> -->
+
+                <!-- <li class="enlaces-items3">  -->
+                    <a href="https://es-la.facebook.com/"><img src="../assets/imgs/logo-facebook.png" alt="instagram"></a>
+                <!-- </li> -->
+
+                <!-- <li class="enlaces-items3">  -->
+                    <a href="https://www.whatsapp.com/"><img src="../assets/imgs/logo-whatsapp.png" alt="whatsapp"></a>
+                <!-- </li> -->
+            <!-- </ol> -->
+
         </div>
-        <div class="mb-4">
-            <label for="Telefono">Telefono:</label>
-            <input type="text" name="Telefono" id="Telefono">
+
+
+        <div class="icon2">
+
+            <img src="../assets/imgs/icon-copyRight.svg" alt="icon-copyRight">
+
         </div>
-        <div class="mb-5">
-            <label for="Mensaje">Comentario:</label>
-            <textarea type="text" name="Mensaje" id="msj" cols="30" rows="5"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
-    </form>
+
+    </footer>
+   
+   
 </body>
 </html>
