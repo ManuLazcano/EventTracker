@@ -52,12 +52,10 @@
 .header__item-navBar a:hover {
     color: var(--white);
 }
-
-.header__item-navBar--pipe::before {
-    content: "| ";
+a {
+    text-decoration: none;
     color: var(--black);
 }
-
 main {
     height: 120vh;
     width: 100%;
@@ -80,7 +78,7 @@ main {
 
 h1 {
     position: absolute;
-    width: 100%;
+    max-width: 100%;
     height: 146px;
     left: 19px;
     top: 100px;
@@ -108,10 +106,11 @@ h2 {
 
 form {
     position: absolute;
+    padding: 20px;
     width: 577px;
     height:620px;
     left: 800px;
-    top: 250px;
+    top: 230px;
     background: var(--white);
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
     border-radius: 30px;
@@ -218,14 +217,12 @@ color: #0E0D0D;
 
 #Telefono {
     position: absolute;
-width: 336px;
-height: 47px;
-left: 192px;
-/* white */
-
-background: #FAFAFA;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 12px;
+    width: 336px;
+    height: 47px;
+    left: 192px;
+    background: #FAFAFA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
 }
 
 #msj {
@@ -246,30 +243,22 @@ border-radius: 12px;
 .mb-5 {
 
     /* Comentario: */
- 
- 
- position: absolute;
- width: 170px;
- height: 34px;
- left: 15px;
- top: 275px;
- 
- font-family: 'Inter';
- font-style: normal;
- font-weight: 700;
- font-size: 28px;
- line-height: 34px;
- /* identical to box height */
- 
- 
- /* black */
- 
- color: #0E0D0D;
+    position: absolute;
+    width: 170px;
+    height: 34px;
+    left: 15px;
+    top: 275px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #0E0D0D;
  
  }
 
 .searcher__button {
-    /* Enviar */
+    position: relative;
     width: 500px;
     height: 69px;
     font-family: 'Langar';
@@ -277,7 +266,9 @@ border-radius: 12px;
     background-color: var(--primary-color);
     box-shadow: var(--shadow-input);
     border-radius: 30px;
-}
+    top:500px;
+    left:20px;
+    }
 
 footer {
     background-color: #32B7B7;
