@@ -41,19 +41,26 @@ header {
    text-decoration: none;
    list-style: none; /* quita el estilo de la lista por defecto (los puntos) */
    
-   
-   
-   
-    
+    }
+
+
+a:hover {
+   color: rgb(247, 243, 243);
+   font-size: 1.3rem;  /* rem es  un proporcional a un tamao estandar */
 }
 
 a {
    text-decoration: none; /* quita el estilo del texto por defecto (a) */
-   font-weight: bold; /* negrita */
-   color: rgb(32, 30, 30);
-   font-size: 1.1rem;  /* rem es  un proporcional a un tamao estandar */
-
+   font-weight: bold; /*negrita*/
+   color: black;
+   font-size: 1.2rem;
 }
+
+
+
+
+
+
 
 
 
@@ -229,6 +236,10 @@ body {
 .number {
    position: relative;
    bottom: 20px;
+}
+
+.number a:hover {
+   color: #32B7B7;
 }
 
 .icon-litle { 
