@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/manuel.css">
     <link rel="shortcut icon" href= "./assets/imgs/logo.png" />
     <title>EventTracker</title>
@@ -29,7 +30,7 @@
                     <a href="#">Contactanos</a>
                 </li>
                 <li class="header__item-navBar header__item-navBar--pipe">
-                    <a href="#">Login</a>
+                    <a id="showLogin" href="#">Login</a>
                 </li>
             </ul>
         </div>
@@ -83,7 +84,7 @@
                     <input class="searcher__button" type="submit" value="Buscar">
                 </form>
             </div>
-            <div class="category"> <!--Block-->
+            <section class="category"> <!--Block-->
                 <h2>Categorías populares</h2>
                 <a href="./docs/artistasMusicales.html">
                     <div class="category__card"><span>Artistas musicales</span></div>
@@ -94,6 +95,24 @@
                 <a href="./docs/videoJuegos.html">
                     <div class="category__card"><span>Videojuegos</span></div>
                 </a>
+            </section>
+        </div>
+        <div id="loginContainer" class="inactive">
+            <div class="login"> <!--Block-->
+                <div class="login__icon-container">
+                    <img class="login__icon" src="./assets/icons/icon-close.svg" alt="Icono para cerrar">
+                </div>
+                <h2 class="login__title">Mi cuenta</h2>
+                <form class="login__form">
+                    <div class="login__input-container">
+                        <p class="login__input-title">Correo electrónico</p>
+                        <input id="inputEmail" class="login__input" type="email" placeholder="example@gmail.com" autocomplete="email" required>
+        
+                        <p class="login__input-title">Contraseña</p>
+                        <input id="inputPassword" class="login__input" type="password" required>
+                    </div>
+                    <input class="login__button" type="button" value="Ingresar">
+                </form>
             </div>
         </div>
     </main>
@@ -107,5 +126,6 @@
             <img src="./assets/imgs/icon-copyRight.svg" alt="Copyright">
         </div>
     </footer>
+    <script src="./login.js"></script>
 </body>
 </html>
